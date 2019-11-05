@@ -1,5 +1,9 @@
 tsp_spanning
 ============
+.. image:: https://readthedocs.org/projects/tsp-spanning/badge/?version=latest
+  :target: https://tsp-spanning.readthedocs.io/en/latest/?badge=latest
+  :alt: Documentation Status
+
 
 tsp_spanning is package which implements Traveling
 Salesman Problem with spanning tree heuristic.
