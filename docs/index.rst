@@ -15,8 +15,6 @@ Functions
 
 .. automodule:: tsp_spanning
    :members:
-   :undoc-members:
-   :show-inheritance:
 
 Indices and tables
 ==================

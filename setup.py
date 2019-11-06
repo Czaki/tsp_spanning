@@ -11,7 +11,8 @@ extensions = [
     setuptools.Extension('tsp_spanning.tsp_wrap',
               sources=["tsp_spanning/tsp_wrap.pyx", "tsp_spanning/tsp_cpp.cpp"],
               include_dirs = [np.get_include()] + [os.path.join(current_dir, "tsp_spanning")],
-              language='c++'), #  extra_compile_args=["-std=c++11", "-g", "-DDEBUG"], extra_link_args=["-g"]),
+              language='c++', extra_compile_args=["-std=c++11"]),
+               #  extra_compile_args=["-std=c++11", "-g", "-DDEBUG"], extra_link_args=["-g"]),
     ]
 extensions[0].cython_directives = {"embedsignature": True}
 
