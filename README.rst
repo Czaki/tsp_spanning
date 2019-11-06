@@ -4,6 +4,9 @@ tsp_spanning
   :target: https://tsp-spanning.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
+.. image:: https://dev.azure.com/bokota/tsp%20spanning/_apis/build/status/Czaki.tsp_spanning?branchName=master
+  :target: https://dev.azure.com/bokota/tsp%20spanning/_build/latest?definitionId=1&branchName=master
+  :alt: Build Status  
 
 tsp_spanning is package which implements Traveling
 Salesman Problem with spanning tree heuristic.
