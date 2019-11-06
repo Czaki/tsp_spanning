@@ -8,6 +8,10 @@ tsp_spanning
   :target: https://dev.azure.com/bokota/tsp%20spanning/_build/latest?definitionId=1&branchName=master
   :alt: Build Status  
 
+.. image:: https://badge.fury.io/py/tsp_spanning.svg
+  :target: https://badge.fury.io/py/tsp_spanning
+  :alt: PyPI version
+
 tsp_spanning is package which implements Traveling
 Salesman Problem with spanning tree heuristic.
 

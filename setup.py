@@ -31,7 +31,18 @@ setuptools.setup(
   install_requires=['numpy', 'cython'],
   ext_modules = extensions,
   long_description=readme(),
-  long_description_content_type='text/restructuredtext',
-  url='https://bitbucket.org/Czaki/tsp_spanning',
-  cmdclass={'build_ext': build_ext}
+  long_description_content_type='text/x-rst',
+  url='https://github.com/Czaki/tsp_spanning',
+  cmdclass={'build_ext': build_ext},
+  classifiers=[
+    'Development Status :: 3 - Alpha',
+    'License :: OSI Approved :: MIT License',
+    "Operating System :: OS Independent",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: Implementation :: CPython",
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+  ]
 )
