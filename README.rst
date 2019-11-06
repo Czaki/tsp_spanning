@@ -22,7 +22,7 @@ instalation
 
 .. code:: bash 
    
-   pip install tsp_spanning
+   pip install tsp-spanning
 
 
 @copyright
