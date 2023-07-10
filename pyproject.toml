@@ -5,7 +5,6 @@ build-backend = "setuptools.build_meta"
 
 
 [tool.cibuildwheel]
-test-command = "pytest {project}/tests"
+test-command = "python {project}/tests/test_base.py"
 test-extras = ["test"]
-skip = "cp36-* cp37-* pp37-* pp*macos*"
-build = "*64"
+
