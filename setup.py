@@ -23,7 +23,7 @@ def readme():
 
 
 setuptools.setup(
-  version="0.1",
+  version="0.2",
   name = 'tsp_spanning',
   author="Grzegorz Bokota",
   author_email="g.bokota@cent.uw.edu.pl",

@@ -1,0 +1,11 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools>=42.0.0", "wheel>=0.34.2", "Cython", "oldest-supported-numpy"]  # PEP 508 specifications.
+build-backend = "setuptools.build_meta"
+
+
+[tool.cibuildwheel]
+test-command = "pytest {project}/tests"
+test-extras = ["test"]
+skip = "cp36-* cp37-* pp37-* pp*macos*"
+build = "*64"
