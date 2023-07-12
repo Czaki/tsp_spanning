@@ -5,10 +5,9 @@ on:
   pull_request:
   push:
     branches:
-      - main
-  release:
-    types:
-      - published
+      - master
+    tags:
+      - 'v*'
 
 jobs:
   build_wheels:
